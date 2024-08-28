@@ -1,8 +1,5 @@
 <template lang="pug">
-v-app
-  v-main
-    HelloWorld
-  AppFooter
+HelloWorld
 </template>
 
 <script setup>

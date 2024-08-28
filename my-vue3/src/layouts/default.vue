@@ -1,7 +1,7 @@
 <template lang="pug">
 v-app
   v-main
-    HelloWorld
+    router-view
   AppFooter
 </template>
 
