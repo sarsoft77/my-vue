@@ -17,11 +17,7 @@ import { fileURLToPath, URL } from 'node:url'
 export default defineConfig({
   plugins: [
     VueRouter(),
-    Layouts({
-      defaultLayout: 'default',
-      layoutsDirs: 'src/**/layouts',
-      pagesDirs: [],
-    }),
+    Layouts(),
     Pages({
       extensions: ['vue', 'md'],
       syncIndex: false,

@@ -1,5 +1,5 @@
 <template lang="pug">
-HelloWorld
+p pages
 </template>
 
 <script setup>
