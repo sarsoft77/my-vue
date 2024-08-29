@@ -1,7 +1,15 @@
 <template lang="pug">
-p pages
+HelloWorld
+p 234
 </template>
+
+<route lang="yaml">
+  meta:
+    layout: default
+    bgColor: blue
+</route>
 
 <script setup>
   //
 </script>
+
